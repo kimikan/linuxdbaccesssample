@@ -8,7 +8,7 @@ int main()
 {
     SqlServer sql;
 
-    int ret = sql.Open("139.196.143.124:1433", "JYDB", "sa", "Hznb@123");
+    int ret = sql.Open("139.196.143.124:1433", "JYDB", "sa", "xxxx");
 
     if (0 == ret)
     {
