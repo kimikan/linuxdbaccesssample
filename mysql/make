@@ -1,0 +1,1 @@
+g++ mysql.cpp main.cpp -o main -L./connector/lib -lmysqlclient -I./connector/include
