@@ -2,7 +2,7 @@
 //written by jkan, 
 //to show how to 
 /* Standard C++ includes */
-//tcp://139.196.73.96:3306", "root", "passok");
+//tcp://139.196.73.96:3306", "root", "--passok--");
 /* Connect to the MySQL test database */
 
 
