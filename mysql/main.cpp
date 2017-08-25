@@ -1,5 +1,5 @@
 
-//written by jkan, 
+//written by kimikan, 
 //to show how to 
 /* Standard C++ includes */
 //tcp://139.196.73.96:3306", "root", "--passok--");
