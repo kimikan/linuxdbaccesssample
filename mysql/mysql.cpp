@@ -1,7 +1,7 @@
 
 
-//written by jkan
-//2017-8-23, purpose for niubang trade 
+//written by Kimi Kan
+//2017-8-23 
 //db access wrapper
 
 
