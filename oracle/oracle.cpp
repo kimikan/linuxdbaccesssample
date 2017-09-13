@@ -34,8 +34,8 @@ void Oracle::Close()
     }
     catch(SQLException ex)
     {
-        std::cout<<"Exception:?Code?-?"<<ex.getErrorCode()
-                 <<",?Message?-?"<<ex.getMessage()<<std::endl;
+        std::cout<<"Exception:Code "<<ex.getErrorCode()
+                 <<", Message - "<<ex.getMessage()<<std::endl;
     }
 }
 
@@ -59,8 +59,8 @@ int Oracle::Open(const char* user, const char* pwd
     }
     catch (SQLException ex)
     {
-        std::cout<<"Exception:?Code?-?"<<ex.getErrorCode()
-            <<",?Message?-?"<<ex.getMessage()<<std::endl;
+        std::cout<<"Exception:Code - "<<ex.getErrorCode()
+            <<", Message - "<<ex.getMessage()<<std::endl;
         return -1;
     }
 
@@ -80,8 +80,8 @@ int Oracle::Commit()
     }
     catch(SQLException ex)
     {
-        std::cout<<"Exception:?Code?-?"<<ex.getErrorCode()
-                 <<",?Message?-?"<<ex.getMessage()<<std::endl;
+        std::cout<<"Exception: Code - "<<ex.getErrorCode()
+                 <<", Message - "<<ex.getMessage()<<std::endl;
         return -1;
     }
 
@@ -153,8 +153,8 @@ int Oracle::ExecuteNonQuery(const char* cmd)
     }
     catch(SQLException ex)
     {
-        std::cout<<"Exception:?Code?-?"<<ex.getErrorCode()
-                 <<",?Message?-?"<<ex.getMessage()<<std::endl;
+        std::cout<<"Exception: Code - "<<ex.getErrorCode()
+                 <<", Message - "<<ex.getMessage()<<std::endl;
     }
     
     return -2;
